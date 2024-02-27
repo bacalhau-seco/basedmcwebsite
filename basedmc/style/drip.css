@@ -1,0 +1,116 @@
+/*
+FONTS
+*/
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bold.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-italic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+/*
+TEXT THAT MAKES WEBSITE LOOK INSANE
+*/
+
+body {
+  background-image: url("background.gif");
+}
+.coolassnav {
+  width: 12%;
+  position: fixed;
+  z-index: 1;
+  left: 10%;
+  background-color: #151713;
+  border-style: dashed;
+  border-color: #00ff00;
+}
+.coolassnav a {
+  padding: 10px 10px 10px 10px;
+  font-family: "hack";
+  font-size: 25px;
+  color: #ffff00;
+  display: block;
+}
+.coolassnav a:hover {
+  color: #00ff00;
+  text-align: center;
+}
+.box{
+  width: 45%;
+  margin: auto;
+  background-color: #151713;
+  border-style: dashed;
+  padding: 2%;
+  border-color: #00ff00;
+}
+button {
+  color: #000000;
+  background-color: #00ff00;
+  font-size: 19px;
+  border: 1px solid #000000;
+  padding: 15px 50px;
+  cursor: pointer;
+}
+button:hover {
+  color: #00ff00;
+  background-color: #000000;
+}
+h1{
+  font-family: 'hack';
+  color: #ffdd00;
+}
+h2{
+  font-family: 'hack';
+  color: #ffdd00;
+}
+h3{
+  font-family: 'hack';
+  color: #ffdd00;
+}
+h4{
+  font-family: 'hack';
+  color: white;
+}
+a:link {
+  color: #ffff00;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffff00;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
